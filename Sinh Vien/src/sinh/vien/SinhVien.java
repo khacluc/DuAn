@@ -10,12 +10,26 @@ package sinh.vien;
  * @author Blue Nowhere
  */
 public class SinhVien {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    private String HoTen;
+    private int MSSV;
+    private BangDiem BangDiem;
     
+    public void sethoTen(String hoten) {
+        this.HoTen= hoten;
+    }
+    public String gethoTen(){
+        return HoTen;
+    }
+    public void setMSSV(int MSSV){
+        this.MSSV=MSSV;
+    }
+    public int getMSSV(){
+        return MSSV;
+    }
+    public void setbangDiem(BangDiem BangDiem){
+        this.BangDiem=BangDiem;
+    }
+    public BangDiem getbangDiem(){
+        return BangDiem;
+    }
 }
